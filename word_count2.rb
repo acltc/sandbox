@@ -1,5 +1,3 @@
-require 'pp'
-
 word_counts = {}
 
 # word_counts = {"apple" => 2}
@@ -13,4 +11,4 @@ word_counts = {}
   word_counts[word] = word_counts[word] + 1
 end
 
-pp word_counts
+puts word_counts

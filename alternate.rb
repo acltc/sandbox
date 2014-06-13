@@ -1,9 +1,6 @@
 words = ["apple", "banana", "carrot", "donut", "escarole", "fruit", "garden salad"]
 which_case = :uppercase
 
-# carrot
-# uppercase
-
 words.each do |word|
   if which_case == :uppercase
     puts word.upcase

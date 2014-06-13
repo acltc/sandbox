@@ -9,10 +9,10 @@ else
   puts "Goodbye"
 end
 
-THIS:
+# THIS:
 puts "I don't like you" if word.downcase == "hi"
 
-IS THE SAME EXACT THING AS THIS:
+# IS THE SAME EXACT THING AS THIS:
 if word.downcase == "hi"
   puts "I don't like you"
 end
