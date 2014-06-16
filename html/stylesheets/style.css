@@ -1,0 +1,38 @@
+p {
+   color: orange;  
+   font-size: 32px;
+}
+
+p.response {
+    color: blue;
+    font-size: 23px;
+}
+
+p.interjection{
+    font-size: 60px;
+}
+
+#centered-image {
+
+    margin: auto;
+    width: 242px;
+}
+
+#main-content {
+   /* border-style: solid;
+    border-width: 5px; */
+    display: none;
+    margin: 50px;
+    padding: 100px;
+    text-align: center;
+    background-color: pink;
+}
+
+.emphasis {
+    color: #326CAD;
+    text-transform: uppercase;
+}
+
+ol {
+    float: right;
+}
